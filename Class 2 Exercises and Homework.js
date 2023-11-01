@@ -48,7 +48,7 @@ console.log(ticTacToe[2]);
 // Hints:
 // - Use rubular to check a few emails: https://rubular.com/
 // - Use regexp test method https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/test
-const regEx = /^([a-z\d\.-]+)@([a-z\d-]+)\.([a-z]{2,8})$/gim;
+const regEx = /^([a-z\d\.-]+)@([a-z\d-]+)\.([a-z]{2,8})$/im;
 const test1 = regEx.test("jdkl@yahoo.com");
 console.log(test1); //true
 const test2 = regEx.test("reachthestars@yahoo.com");
